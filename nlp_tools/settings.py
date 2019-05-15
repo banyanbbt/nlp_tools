@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'users.apps.UsersConfig',
+    'scenes.apps.ScenesConfig',
+    'segments.apps.SegmentsConfig',
+    'marks.apps.MarksConfig',
 ]
 
 MIDDLEWARE = [
